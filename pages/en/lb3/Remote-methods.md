@@ -105,7 +105,7 @@ Model.remoteMethod(requestHandlerFunctionName, [options])
 
 Where:
 
-* _`model`_ is the model object to which you're adding the remote method. In our example, `Person`.
+* _`Model`_ is the model object to which you're adding the remote method. In our example, `Person`.
 * _`requestHandlerFunctionName`_ is a string that specifies name of the remote method, for example `'greet'`.
 * _`options`_ is an object that specifies parameters to configure the REST endpoint; see [Options](#options) below.
 
